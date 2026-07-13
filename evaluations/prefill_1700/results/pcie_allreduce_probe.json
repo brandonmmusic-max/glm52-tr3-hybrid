@@ -1,0 +1,258 @@
+{
+  "world_size": 4,
+  "hidden": 6144,
+  "results": [
+    {
+      "mode": "nccl",
+      "rows": 64,
+      "bytes": 786432,
+      "latency_us": 55.338664849599205,
+      "logical_alg_gbps": 14.211257212970072,
+      "logical_bus_gbps": 21.31688581945511,
+      "relative_l2": 0.0
+    },
+    {
+      "mode": "nccl",
+      "rows": 128,
+      "bytes": 1572864,
+      "latency_us": 80.19733428955078,
+      "logical_alg_gbps": 19.612422456851345,
+      "logical_bus_gbps": 29.418633685277015,
+      "relative_l2": 0.0
+    },
+    {
+      "mode": "nccl",
+      "rows": 256,
+      "bytes": 3145728,
+      "latency_us": 136.94400787353516,
+      "logical_alg_gbps": 22.970906495631503,
+      "logical_bus_gbps": 34.45635974344725,
+      "relative_l2": 0.0
+    },
+    {
+      "mode": "nccl",
+      "rows": 512,
+      "bytes": 6291456,
+      "latency_us": 222.96746571858725,
+      "logical_alg_gbps": 28.216923844578304,
+      "logical_bus_gbps": 42.325385766867456,
+      "relative_l2": 0.0
+    },
+    {
+      "mode": "nccl",
+      "rows": 1024,
+      "bytes": 12582912,
+      "latency_us": 420.1557477315267,
+      "logical_alg_gbps": 29.94820865342605,
+      "logical_bus_gbps": 44.922312980139075,
+      "relative_l2": 0.0
+    },
+    {
+      "mode": "nccl",
+      "rows": 2048,
+      "bytes": 25165824,
+      "latency_us": 817.6394780476888,
+      "logical_alg_gbps": 30.77863126189732,
+      "logical_bus_gbps": 46.16794689284598,
+      "relative_l2": 0.0
+    },
+    {
+      "mode": "nccl",
+      "rows": 4096,
+      "bytes": 50331648,
+      "latency_us": 1615.0346120198567,
+      "logical_alg_gbps": 31.16443921722043,
+      "logical_bus_gbps": 46.74665882583064,
+      "relative_l2": 0.0
+    },
+    {
+      "mode": "bf16",
+      "rows": 64,
+      "bytes": 786432,
+      "latency_us": 135.45279502868652,
+      "logical_alg_gbps": 5.805948853498723,
+      "logical_bus_gbps": 8.708923280248085,
+      "relative_l2": 0.003138389438390732
+    },
+    {
+      "mode": "bf16",
+      "rows": 128,
+      "bytes": 1572864,
+      "latency_us": 136.83412869771323,
+      "logical_alg_gbps": 11.4946761818076,
+      "logical_bus_gbps": 17.2420142727114,
+      "relative_l2": 0.0031532736029475927
+    },
+    {
+      "mode": "bf16",
+      "rows": 256,
+      "bytes": 3145728,
+      "latency_us": 160.9216054280599,
+      "logical_alg_gbps": 19.548201695056417,
+      "logical_bus_gbps": 29.322302542584623,
+      "relative_l2": 0.00315292295999825
+    },
+    {
+      "mode": "bf16",
+      "rows": 512,
+      "bytes": 6291456,
+      "latency_us": 247.38240242004395,
+      "logical_alg_gbps": 25.4321080984467,
+      "logical_bus_gbps": 38.14816214767005,
+      "relative_l2": 0.003149556927382946
+    },
+    {
+      "mode": "bf16",
+      "rows": 1024,
+      "bytes": 12582912,
+      "latency_us": 358.18986892700195,
+      "logical_alg_gbps": 35.129167772649545,
+      "logical_bus_gbps": 52.69375165897432,
+      "relative_l2": 0.0031459671445190907
+    },
+    {
+      "mode": "bf16",
+      "rows": 2048,
+      "bytes": 25165824,
+      "latency_us": 695.5925623575846,
+      "logical_alg_gbps": 36.17897223441408,
+      "logical_bus_gbps": 54.26845835162112,
+      "relative_l2": 0.0031510828994214535
+    },
+    {
+      "mode": "bf16",
+      "rows": 4096,
+      "bytes": 50331648,
+      "latency_us": 1363.8132731119792,
+      "logical_alg_gbps": 36.905087369586994,
+      "logical_bus_gbps": 55.35763105438049,
+      "relative_l2": 0.003149844240397215
+    },
+    {
+      "mode": "ag",
+      "rows": 64,
+      "bytes": 786432,
+      "latency_us": 149.59893226623535,
+      "logical_alg_gbps": 5.256935915828716,
+      "logical_bus_gbps": 7.8854038737430745,
+      "relative_l2": 0.022472599521279335
+    },
+    {
+      "mode": "ag",
+      "rows": 128,
+      "bytes": 1572864,
+      "latency_us": 134.9503993988037,
+      "logical_alg_gbps": 11.655126676223404,
+      "logical_bus_gbps": 17.482690014335105,
+      "relative_l2": 0.02256092242896557
+    },
+    {
+      "mode": "ag",
+      "rows": 256,
+      "bytes": 3145728,
+      "latency_us": 143.93919308980307,
+      "logical_alg_gbps": 21.854561863754462,
+      "logical_bus_gbps": 32.78184279563169,
+      "relative_l2": 0.022552454844117165
+    },
+    {
+      "mode": "ag",
+      "rows": 512,
+      "bytes": 6291456,
+      "latency_us": 246.91839218139648,
+      "logical_alg_gbps": 25.479900239177148,
+      "logical_bus_gbps": 38.219850358765726,
+      "relative_l2": 0.02252495288848877
+    },
+    {
+      "mode": "ag",
+      "rows": 1024,
+      "bytes": 12582912,
+      "latency_us": 325.4954655965169,
+      "logical_alg_gbps": 38.65771824790253,
+      "logical_bus_gbps": 57.9865773718538,
+      "relative_l2": 0.022540118545293808
+    },
+    {
+      "mode": "ag",
+      "rows": 2048,
+      "bytes": 25165824,
+      "latency_us": 587.0239893595377,
+      "logical_alg_gbps": 42.87017984981625,
+      "logical_bus_gbps": 64.30526977472438,
+      "relative_l2": 0.022535696625709534
+    },
+    {
+      "mode": "ag",
+      "rows": 4096,
+      "bytes": 50331648,
+      "latency_us": 1113.2692972819011,
+      "logical_alg_gbps": 45.21066746643159,
+      "logical_bus_gbps": 67.81600119964739,
+      "relative_l2": 0.02253483049571514
+    },
+    {
+      "mode": "ring",
+      "rows": 64,
+      "bytes": 786432,
+      "latency_us": 163.1872018178304,
+      "logical_alg_gbps": 4.819201452316782,
+      "logical_bus_gbps": 7.228802178475172,
+      "relative_l2": 0.03872428834438324
+    },
+    {
+      "mode": "ring",
+      "rows": 128,
+      "bytes": 1572864,
+      "latency_us": 148.72105916341147,
+      "logical_alg_gbps": 10.575933286433708,
+      "logical_bus_gbps": 15.863899929650561,
+      "relative_l2": 0.03865727037191391
+    },
+    {
+      "mode": "ring",
+      "rows": 256,
+      "bytes": 3145728,
+      "latency_us": 139.35680389404297,
+      "logical_alg_gbps": 22.573192783552848,
+      "logical_bus_gbps": 33.85978917532927,
+      "relative_l2": 0.03871641680598259
+    },
+    {
+      "mode": "ring",
+      "rows": 512,
+      "bytes": 6291456,
+      "latency_us": 262.55680720011395,
+      "logical_alg_gbps": 23.962265793416726,
+      "logical_bus_gbps": 35.94339869012509,
+      "relative_l2": 0.03870980441570282
+    },
+    {
+      "mode": "ring",
+      "rows": 1024,
+      "bytes": 12582912,
+      "latency_us": 295.17119725545246,
+      "logical_alg_gbps": 42.629199993081535,
+      "logical_bus_gbps": 63.943799989622306,
+      "relative_l2": 0.038716427981853485
+    },
+    {
+      "mode": "ring",
+      "rows": 2048,
+      "bytes": 25165824,
+      "latency_us": 420.73599497477215,
+      "logical_alg_gbps": 59.81381270102401,
+      "logical_bus_gbps": 89.72071905153602,
+      "relative_l2": 0.03870892524719238
+    },
+    {
+      "mode": "ring",
+      "rows": 4096,
+      "bytes": 50331648,
+      "latency_us": 825.927480061849,
+      "logical_alg_gbps": 60.93954882846488,
+      "logical_bus_gbps": 91.40932324269733,
+      "relative_l2": 0.0387142188847065
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+Name:      docker.io/verdictai/glm52-tr3-hybrid:mtp3-dcp4-nvfp4-20260713
+MediaType: application/vnd.oci.image.index.v1+json
+Digest:    sha256:863f01a3cbdef0d0d03c3c871e90131568d914b6c66bf9b250efc18e944fbf46
+           
+Manifests: 
+  Name:        docker.io/verdictai/glm52-tr3-hybrid:mtp3-dcp4-nvfp4-20260713@sha256:9bc86fede9a8cb64c24e7760d851261334c529d3549c6d493d778ee3d7e4d528
+  MediaType:   application/vnd.oci.image.manifest.v1+json
+  Platform:    linux/amd64
+               
+  Name:        docker.io/verdictai/glm52-tr3-hybrid:mtp3-dcp4-nvfp4-20260713@sha256:13e27f8cb34980c2097e03428b22bbe0dd977f76a102bb037a3af1885c415dc3
+  MediaType:   application/vnd.oci.image.manifest.v1+json
+  Platform:    unknown/unknown
+  Annotations: 
+    vnd.docker.reference.digest: sha256:9bc86fede9a8cb64c24e7760d851261334c529d3549c6d493d778ee3d7e4d528
+    vnd.docker.reference.type:   attestation-manifest

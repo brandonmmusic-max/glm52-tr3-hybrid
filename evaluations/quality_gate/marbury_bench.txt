@@ -1,0 +1,8 @@
+=== Marbury bench — host=http://127.0.0.1:9300, model=GLM-5.2, runs=3, max_tokens=1500 ===
+  [WARMUP] wall=22.12s  tok/s=67.8  (prompt=116, completion=1500, prefill≈566ms, decode_tps≈69.6)
+  [MEASURE] wall=22.05s  tok/s=68.0  (prompt=116, completion=1500, prefill≈467ms, decode_tps≈69.5)
+  [MEASURE] wall=21.74s  tok/s=69.0  (prompt=116, completion=1500, prefill≈690ms, decode_tps≈71.3)
+
+=== Summary (excluding warmup) ===
+  Wall-clock tok/s   — mean=68.5  min=68.0  max=69.0  stdev=0.7
+  Est decode tok/s   — mean=70.4  min=69.5  max=71.3

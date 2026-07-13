@@ -1,0 +1,87 @@
+-+-[0000:00]-+-00.0  Advanced Micro Devices, Inc. [AMD] Device 153a
+ |           +-00.2  Advanced Micro Devices, Inc. [AMD] Device 153b
+ |           +-00.3  Advanced Micro Devices, Inc. [AMD] Device 153c
+ |           +-01.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           +-01.1-[01]--+-00.0  NVIDIA Corporation Device 2bb4
+ |           |            \-00.1  NVIDIA Corporation Device 22e8
+ |           +-02.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           +-03.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           +-04.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           +-05.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           +-07.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           +-07.1-[02]----00.0  Advanced Micro Devices, Inc. [AMD] Device 1556
+ |           +-14.0  Advanced Micro Devices, Inc. [AMD] FCH SMBus Controller
+ |           +-14.3  Advanced Micro Devices, Inc. [AMD] FCH LPC Bridge
+ |           +-18.0  Advanced Micro Devices, Inc. [AMD] Device 12c0
+ |           +-18.1  Advanced Micro Devices, Inc. [AMD] Device 12c1
+ |           +-18.2  Advanced Micro Devices, Inc. [AMD] Device 12c2
+ |           +-18.3  Advanced Micro Devices, Inc. [AMD] Device 12c3
+ |           +-18.4  Advanced Micro Devices, Inc. [AMD] Device 12c4
+ |           +-18.5  Advanced Micro Devices, Inc. [AMD] Device 12c5
+ |           +-18.6  Advanced Micro Devices, Inc. [AMD] Device 12c6
+ |           \-18.7  Advanced Micro Devices, Inc. [AMD] Device 12c7
+ +-[0000:20]-+-00.0  Advanced Micro Devices, Inc. [AMD] Device 153a
+ |           +-00.3  Advanced Micro Devices, Inc. [AMD] Device 153c
+ |           +-01.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           +-01.1-[21]--+-00.0  NVIDIA Corporation Device 2bb1
+ |           |            \-00.1  NVIDIA Corporation Device 22e8
+ |           \-02.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ +-[0000:40]-+-00.0  Advanced Micro Devices, Inc. [AMD] Device 153a
+ |           +-00.2  Advanced Micro Devices, Inc. [AMD] Device 153b
+ |           +-01.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           +-02.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           +-03.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           +-04.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           +-05.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           +-07.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           \-07.1-[41]--+-00.0  Advanced Micro Devices, Inc. [AMD] Device 1556
+ |                        +-00.4  Advanced Micro Devices, Inc. [AMD] Device 1557
+ |                        \-00.7  Advanced Micro Devices, Inc. [AMD] Device 14cc
+ +-[0000:60]-+-00.0  Advanced Micro Devices, Inc. [AMD] Device 153a
+ |           +-01.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           +-01.1-[61]----00.0  ADATA Technology Co., Ltd. Device 648a
+ |           +-01.2-[62]----00.0  Samsung Electronics Co Ltd NVMe SSD Controller S4LV008[Pascal]
+ |           +-01.3-[63-78]----00.0-[64-78]--+-00.0-[65]----00.0  Aquantia Corp. AQC113C NBase-T/IEEE 802.3an Ethernet Controller [Marvell Scalable mGig]
+ |           |                               +-02.0-[66]----00.0  Qualcomm Technologies, Inc WCN785x Wi-Fi 7(802.11be) 320MHz 2x2 [FastConnect 7800]
+ |           |                               +-03.0-[67]----00.0  ASMedia Technology Inc. Device 1062
+ |           |                               +-06.0-[68]----00.0  Aquantia Corp. AQC113C NBase-T/IEEE 802.3an Ethernet Controller [Marvell Scalable mGig]
+ |           |                               +-08.0-[69-76]----00.0-[6a-76]--+-00.0-[6b]----00.0  Intel Corporation Thunderbolt 4 NHI [Maple Ridge 4C 2020]
+ |           |                               |                               +-01.0-[6c-70]--
+ |           |                               |                               +-02.0-[71]----00.0  Intel Corporation Thunderbolt 4 USB Controller [Maple Ridge 4C 2020]
+ |           |                               |                               \-03.0-[72-76]--
+ |           |                               +-0c.0-[77]----00.0  Advanced Micro Devices, Inc. [AMD] 600 Series Chipset USB 3.2 Controller
+ |           |                               \-0d.0-[78]----00.0  Advanced Micro Devices, Inc. [AMD] 600 Series Chipset SATA Controller
+ |           +-01.4-[79]----00.0  Samsung Electronics Co Ltd Device a810
+ |           \-02.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ +-[0000:80]-+-00.0  Advanced Micro Devices, Inc. [AMD] Device 153a
+ |           +-01.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           +-01.1-[81]--+-00.0  NVIDIA Corporation Device 2bb4
+ |           |            \-00.1  NVIDIA Corporation Device 22e8
+ |           \-02.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ +-[0000:a0]-+-00.0  Advanced Micro Devices, Inc. [AMD] Device 153a
+ |           +-00.2  Advanced Micro Devices, Inc. [AMD] Device 153b
+ |           +-01.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           +-02.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           +-03.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           +-04.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           +-05.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           +-07.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           \-07.1-[a1]--+-00.0  Advanced Micro Devices, Inc. [AMD] Device 1556
+ |                        \-00.5  Advanced Micro Devices, Inc. [AMD] Device 156e
+ +-[0000:c0]-+-00.0  Advanced Micro Devices, Inc. [AMD] Device 153a
+ |           +-00.3  Advanced Micro Devices, Inc. [AMD] Device 153c
+ |           +-01.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ |           +-01.1-[c1]--+-00.0  NVIDIA Corporation Device 2bb1
+ |           |            \-00.1  NVIDIA Corporation Device 22e8
+ |           \-02.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+ \-[0000:e0]-+-00.0  Advanced Micro Devices, Inc. [AMD] Device 153a
+             +-00.2  Advanced Micro Devices, Inc. [AMD] Device 153b
+             +-00.3  Advanced Micro Devices, Inc. [AMD] Device 153c
+             +-01.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+             +-02.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+             +-03.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+             +-04.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+             +-05.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+             +-07.0  Advanced Micro Devices, Inc. [AMD] Device 153d
+             \-07.1-[e1]--+-00.0  Advanced Micro Devices, Inc. [AMD] Device 1556
+                          \-00.4  Advanced Micro Devices, Inc. [AMD] Device 1557

@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-93ba22a2733f4838",
+  "object": "chat.completion",
+  "created": 1783896262,
+  "model": "GLM-5.2",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "reasoning": "1.  **Analyze the Request:**\n    *   Task: State the holding of *Marbury v. Madison*.\n    *   Constraint 1: Exactly two clear sentences.\n    *   Constraint 2: Neutrality (applies to political topics, but *Marbury v. Madison* is a historical/legal fact, so just state the legal holding accurately without political bias).\n\n2.  **Identify the Holding of *Marbury v. Madison*:**\n    *   The Supreme Court has the authority to declare acts of Congress unconstitutional if they conflict with the Constitution.\n    *   This established the principle of judicial review.\n    *   Also, Marbury himself was entitled to his commission, but the Court could not force Madison to deliver it because the section of the Judiciary Act giving the Court original jurisdiction to issue writs of mandamus was unconstitutional.\n\n3.  **Draft the Sentences:**\n    *   *Draft 1:* The Supreme Court lacks the authority to issue a writ of mandamus in this case because the provision of the Judiciary Act expanding its original jurisdiction is unconstitutional. Furthermore, the Court established the principle of judicial review, holding that it is the judiciary's duty to declare void any legislative acts that conflict with the Constitution.\n    *   *Critique 1:* Accurate, but maybe a bit wordy. Let's make it clearer and more focused on the primary holding (judicial review).\n    *   *Draft 2:*"
+      },
+      "logprobs": null,
+      "finish_reason": "length",
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.11.2.dev279+eldritch.enlightenment.v45c1582.b12xf3686b5.patchc1441b5.fi25dd814.cu132.20260704-tp4-d4d0386e",
+  "usage": {
+    "prompt_tokens": 27,
+    "total_tokens": 327,
+    "completion_tokens": 300,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}
