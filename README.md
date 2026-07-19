@@ -58,6 +58,27 @@ under [`evaluations/decode`](evaluations/decode) and [`evidence/containers`](evi
 
 ## Evaluation record
 
+### Interim GPQA Diamond results (8x NVIDIA B200)
+
+Two of four planned independent stochastic passes are fully validated and
+published. Each pass scores the complete official 198-item GPQA Diamond split.
+
+| Pass | Correct | Wrong | Accuracy | API errors | Status |
+|---|---:|---:|---:|---:|---|
+| 1 | 181 | 17 | **91.41%** | 0 | validated |
+| 2 | 178 | 20 | **89.90%** | 0 | validated |
+
+Protocol: `llm-decode-bench` 0.4.29, fixed concurrency 64,
+`max_tokens=100000`, temperature 1.0, top-p 0.95, deterministic per-item option
+shuffle, and exact option-letter scoring. Pass 1 is a canonical merge of a
+deterministic 64-item shard and its exact 134-item complement; their item-ID
+sets are disjoint and their union is exactly all 198 items. Passes 3-4,
+IFBench, and Aider Polyglot remain in progress, so these are deliberately
+labeled interim rather than a final aggregate.
+
+Raw JSON, terminal captures, the pass-1 merge script, and checksums are under
+[`evaluations/b200_8gpu_20260718/gpqa`](evaluations/b200_8gpu_20260718/gpqa).
+
 - [`RESULTS.md`](RESULTS.md): summarized decode, prefill, KLD, DeepSpark, and
   capacity results.
 - [`evaluations/`](evaluations): raw JSON, CSV, and KLD logs for all retained

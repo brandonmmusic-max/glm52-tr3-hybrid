@@ -61,15 +61,28 @@ reduce the DCP4 KV pool to 740,608 tokens. The selected production image uses th
 slimmer quality stack to retain 923,136 tokens. KLD is not affected by MTP depth;
 MTP2/3/5 only alter speculative serving.
 
-## Overnight accuracy suites
+## GPQA Diamond on 8x NVIDIA B200 (interim)
 
-The selected MTP3/0.964 server is evaluated with four concurrent requests:
+Two of four planned independent passes are complete and validated. These runs
+used two unchanged TP4/DCP4 endpoints, each backed by four B200 GPUs, while the
+passes ran concurrently across the eight-GPU host.
 
-| Suite | Requested scope | Status/result |
-|---|---:|---|
-| LAVD | 10 runs | running |
-| Estonia | 10 runs | queued |
-| GPQA-Diamond | all 198 questions | queued |
-| GSM8K | all 1,319 questions | queued |
+| Pass | Correct | Wrong | Accuracy | Wilson 95% CI | Hit 100K cap | Truncated/no answer | Errors |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| 1 | 181 | 17 | **91.41%** | 86.68%-94.57% | 9 | 1 | 0 |
+| 2 | 178 | 20 | **89.90%** | 84.91%-93.37% | 9 | 3 | 0 |
 
-This table is replaced with final results before publication.
+Both artifacts report requested = attempted = scored = 198 and
+`interrupted=false`. Truncated/no-answer items are included as wrong, not
+dropped. The protocol was `llm-decode-bench` 0.4.29, official GPQA Diamond
+198, fixed concurrency 64, `max_tokens=100000`, temperature 1.0, top-p 0.95,
+and exact option-letter scoring after deterministic per-item option shuffling.
+The dataset hash is
+`a8472c5a82ea2df8f209c17713aba1a6d409120c609ec0582dae0cb940c7e28c`.
+
+Pass 1 was executed as a deterministic 64-item shard followed by its exact
+134-item complement. The two item-ID/index sets were validated disjoint, with
+zero omissions or duplicates and an exact 198-item union, then merged in
+canonical item-ID order. Both source shards, the merge script, and the canonical
+result are retained. Passes 3-4 are still running; IFBench and Aider Polyglot
+will follow, so no four-pass aggregate is claimed yet.
