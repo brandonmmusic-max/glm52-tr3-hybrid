@@ -1,0 +1,258 @@
+[
+    {
+        "Id": "a319e578d9d3638553b088a01d6a83823da60ededececf20c14f535d3878867c",
+        "Created": "2026-07-19T10:56:10.071109976Z",
+        "Path": "python3",
+        "Args": [
+            "benchmark/benchmark.py",
+            "2026-07-19-polyglot-a",
+            "--model",
+            "openai/GLM-5.2",
+            "--edit-format",
+            "whole",
+            "--threads",
+            "8",
+            "--tries",
+            "2",
+            "--languages",
+            "java,cpp,go",
+            "--num-ctx",
+            "131072",
+            "--read-model-settings",
+            "/aider/model-settings-glm52.yml"
+        ],
+        "State": {
+            "Status": "exited",
+            "Running": false,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 0,
+            "ExitCode": 137,
+            "Error": "",
+            "StartedAt": "2026-07-19T10:56:10.130773341Z",
+            "FinishedAt": "2026-07-19T17:49:52.467233241Z"
+        },
+        "Image": "sha256:5e8be6f053dc8f67a8976898ffdab680dedd994bb35618af6b673802451d314b",
+        "ResolvConfPath": "/var/lib/docker/containers/a319e578d9d3638553b088a01d6a83823da60ededececf20c14f535d3878867c/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/a319e578d9d3638553b088a01d6a83823da60ededececf20c14f535d3878867c/hostname",
+        "HostsPath": "/var/lib/docker/containers/a319e578d9d3638553b088a01d6a83823da60ededececf20c14f535d3878867c/hosts",
+        "LogPath": "/var/lib/docker/containers/a319e578d9d3638553b088a01d6a83823da60ededececf20c14f535d3878867c/a319e578d9d3638553b088a01d6a83823da60ededececf20c14f535d3878867c-json.log",
+        "Name": "/aider-polyglot-a",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/home/brandonmusic/klc-linux/glm52_hybrid_opt/aider_polyglot_runner/aider:/aider",
+                "/home/brandonmusic/klc-linux/glm52_hybrid_opt/aider_polyglot_runner/aider/tmp.benchmarks:/benchmarks",
+                "/home/brandonmusic/klc-linux/glm52_hybrid_opt/aider_polyglot_runner/polyglot-benchmark:/benchmarks/polyglot-benchmark"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "host",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 51539607552,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 51539607552,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": [],
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/home/brandonmusic/klc-linux/glm52_hybrid_opt/aider_polyglot_runner/aider",
+                "Destination": "/aider",
+                "Mode": "",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/home/brandonmusic/klc-linux/glm52_hybrid_opt/aider_polyglot_runner/aider/tmp.benchmarks",
+                "Destination": "/benchmarks",
+                "Mode": "",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/home/brandonmusic/klc-linux/glm52_hybrid_opt/aider_polyglot_runner/polyglot-benchmark",
+                "Destination": "/benchmarks/polyglot-benchmark",
+                "Mode": "",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "pop-os",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "AIDER_BENCHMARK_DIR=/benchmarks",
+                "OPENAI_API_KEY=dummy",
+                "OPENAI_API_BASE=http://127.0.0.1:19300/v1",
+                "AIDER_DOCKER=1",
+                "PATH=/root/.cargo/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "python3",
+                "benchmark/benchmark.py",
+                "2026-07-19-polyglot-a",
+                "--model",
+                "openai/GLM-5.2",
+                "--edit-format",
+                "whole",
+                "--threads",
+                "8",
+                "--tries",
+                "2",
+                "--languages",
+                "java,cpp,go",
+                "--num-ctx",
+                "131072",
+                "--read-model-settings",
+                "/aider/model-settings-glm52.yml"
+            ],
+            "Image": "aider-benchmark",
+            "Volumes": null,
+            "WorkingDir": "/aider",
+            "Entrypoint": null,
+            "Labels": {
+                "org.opencontainers.image.version": "22.04"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "",
+            "SandboxKey": "",
+            "Ports": {},
+            "Networks": {
+                "host": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "81d2440e91a05cd5643fcd9a3e6c19cd74b7d162b91b422054eb9ca3181d93c3",
+                    "EndpointID": "",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "MacAddress": "",
+                    "IPPrefixLen": 0,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": null
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:be3314188ccde7a29f135326110eba1239fc1651cd1e598ba3d744c24d2f2b3e",
+            "size": 3170,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

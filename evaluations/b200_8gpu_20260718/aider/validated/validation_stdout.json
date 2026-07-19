@@ -1,0 +1,147 @@
+{
+  "benchmark": "Aider Polyglot",
+  "requested_tasks": 225,
+  "finalized_tasks": 221,
+  "coverage_percent": 98.2222,
+  "score_denominator": "221 finalized tasks; four infrastructure-incomplete tasks excluded, not counted incorrect",
+  "overall": {
+    "finalized": 221,
+    "pass_1": 97,
+    "pass_1_percent": 43.8914,
+    "pass_2": 189,
+    "pass_2_percent": 85.5204
+  },
+  "by_shard": {
+    "A": {
+      "finalized": 108,
+      "pass_1": 48,
+      "pass_1_percent": 44.4444,
+      "pass_2": 93,
+      "pass_2_percent": 86.1111
+    },
+    "B": {
+      "finalized": 113,
+      "pass_1": 49,
+      "pass_1_percent": 43.3628,
+      "pass_2": 96,
+      "pass_2_percent": 84.9558
+    }
+  },
+  "by_language": {
+    "cpp": {
+      "finalized": 26,
+      "pass_1": 9,
+      "pass_1_percent": 34.6154,
+      "pass_2": 23,
+      "pass_2_percent": 88.4615
+    },
+    "go": {
+      "finalized": 37,
+      "pass_1": 21,
+      "pass_1_percent": 56.7568,
+      "pass_2": 31,
+      "pass_2_percent": 83.7838
+    },
+    "java": {
+      "finalized": 45,
+      "pass_1": 18,
+      "pass_1_percent": 40.0,
+      "pass_2": 39,
+      "pass_2_percent": 86.6667
+    },
+    "javascript": {
+      "finalized": 49,
+      "pass_1": 20,
+      "pass_1_percent": 40.8163,
+      "pass_2": 42,
+      "pass_2_percent": 85.7143
+    },
+    "python": {
+      "finalized": 34,
+      "pass_1": 15,
+      "pass_1_percent": 44.1176,
+      "pass_2": 31,
+      "pass_2_percent": 91.1765
+    },
+    "rust": {
+      "finalized": 30,
+      "pass_1": 14,
+      "pass_1_percent": 46.6667,
+      "pass_2": 23,
+      "pass_2_percent": 76.6667
+    }
+  },
+  "failure_categories": {
+    "test_timeouts": {
+      "affected_tasks": 0,
+      "total_events": 0
+    },
+    "error_outputs": {
+      "affected_tasks": 18,
+      "total_events": 40
+    },
+    "malformed_responses": {
+      "affected_tasks": 0,
+      "total_events": 0
+    },
+    "exhausted_context_windows": {
+      "affected_tasks": 1,
+      "total_events": 1
+    },
+    "syntax_errors": {
+      "affected_tasks": 0,
+      "total_events": 0
+    },
+    "indentation_errors": {
+      "affected_tasks": 0,
+      "total_events": 0
+    },
+    "lazy_comments": {
+      "affected_tasks": 0,
+      "total_events": 0
+    },
+    "failed_both_attempts": 32,
+    "passed_on_second_attempt": 92
+  },
+  "infrastructure_incomplete": [
+    {
+      "language": "go",
+      "task": "connect",
+      "reason": "infrastructure/client timeout loop"
+    },
+    {
+      "language": "go",
+      "task": "robot-simulator",
+      "reason": "infrastructure/client timeout loop"
+    },
+    {
+      "language": "java",
+      "task": "rational-numbers",
+      "reason": "infrastructure/client timeout loop"
+    },
+    {
+      "language": "java",
+      "task": "zipper",
+      "reason": "infrastructure/client timeout loop"
+    }
+  ],
+  "unique_finalized_ids": 221,
+  "duplicate_ids": [],
+  "protocol": {
+    "model": [
+      "openai/GLM-5.2"
+    ],
+    "edit_format": [
+      "whole"
+    ],
+    "aider_commit": [
+      "5dc9490"
+    ],
+    "polyglot_commit": "7e0611e",
+    "max_tokens": 32768,
+    "temperature": "disabled",
+    "threads_per_shard": 8,
+    "endpoint_shard_a": "localhost:19300 -> Vast:9300 (GPUs 0-3)",
+    "endpoint_shard_b": "localhost:19400 -> Vast:9400 (GPUs 4-7)"
+  }
+}
