@@ -79,6 +79,31 @@ labeled interim rather than a final aggregate.
 Raw JSON, terminal captures, the pass-1 merge script, and checksums are under
 [`evaluations/b200_8gpu_20260718/gpqa`](evaluations/b200_8gpu_20260718/gpqa).
 
+#### Published-model comparison
+
+The two validated passes average **90.66%** (359 correct across two repeats of
+the same 198-item set; pass range 89.90%-91.41%). The other rows below are
+reported by their linked model cards. This is useful context, not a controlled
+A/B: sampling parameters align for the NVIDIA/madeby561 rows, but checkpoint,
+serving stack, prompt formatting, and harness details may differ.
+
+| Model/build | GPQA Diamond | SciCode | IFBench | AA-LCR | τ²-Bench Telecom |
+|---|---:|---:|---:|---:|---:|
+| NVIDIA GLM-5.2 FP8 baseline | 89.52 | 49.85 | 74.95 | 69.38 | 97.9 |
+| NVIDIA full NVFP4 | 89.39 | 49.04 | 75.81 | 70.13 | 98.25 |
+| **GLM-5.2-NVFP4-TR3-Hybrid (this model, interim two-pass mean)** | **90.66** | *pending* | *pending* | *pending* | *pending* |
+| madeby561 MXFP8/NVFP4/NF3 Hybrid v3.6 | 88.89 | *pending* | *pending* | *pending* | *pending* |
+| madeby561 previous build `718f3f7472ec` | 88.38 | *pending* | *pending* | *pending* | *pending* |
+| REAP-594B prune (contrast) | 86.87 | 47.77 | - | - | - |
+
+Sources: [NVIDIA GLM-5.2-NVFP4](https://huggingface.co/nvidia/GLM-5.2-NVFP4),
+[madeby561 hybrid v3.6](https://huggingface.co/madeby561/GLM-5.2-MXFP8-NVFP4-NF3-Hybrid),
+and [its previous revision](https://huggingface.co/madeby561/GLM-5.2-MXFP8-NVFP4-NF3-Hybrid/tree/718f3f7472ec).
+For additional, separately reported context, the
+[official Z.ai GLM-5.2 card](https://huggingface.co/zai-org/GLM-5.2) lists
+GPQA-Diamond at 91.2; its broader evaluation table is not treated here as a
+protocol-matched baseline.
+
 - [`RESULTS.md`](RESULTS.md): summarized decode, prefill, KLD, DeepSpark, and
   capacity results.
 - [`evaluations/`](evaluations): raw JSON, CSV, and KLD logs for all retained

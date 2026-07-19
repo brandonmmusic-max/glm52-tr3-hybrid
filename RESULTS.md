@@ -86,3 +86,25 @@ zero omissions or duplicates and an exact 198-item union, then merged in
 canonical item-ID order. Both source shards, the merge script, and the canonical
 result are retained. Passes 3-4 are still running; IFBench and Aider Polyglot
 will follow, so no four-pass aggregate is claimed yet.
+
+### External comparison context
+
+Across the two completed passes, this model has 359 correct responses over two
+repeats of the same 198-item set: a **90.66% interim mean**, with individual
+passes at 91.41% and 89.90%. This is 1.14 percentage points above the 89.52 FP8
+baseline reported on NVIDIA's GLM-5.2-NVFP4 card, 1.27 points above NVIDIA's
+89.39 full-NVFP4 result, and 1.77 points above the 88.89 madeby561 hybrid v3.6
+result. These differences are descriptive, not causal: the published cards
+align on temperature 1.0 and top-p 0.95, and NVIDIA specifies a 100,000-token
+GPQA output cap, but the serving stacks, prompt construction, and harnesses are
+not proven byte-for-byte identical.
+
+The official Z.ai GLM-5.2 card separately reports 91.2 on GPQA-Diamond. Because
+that figure appears in a broader evaluation table with a different reporting
+context, it is retained as general base-model context rather than a matched
+baseline. The final four-pass aggregate will replace the interim mean after
+passes 3-4 validate.
+
+Sources: [NVIDIA GLM-5.2-NVFP4](https://huggingface.co/nvidia/GLM-5.2-NVFP4),
+[madeby561 GLM-5.2-MXFP8-NVFP4-NF3-Hybrid](https://huggingface.co/madeby561/GLM-5.2-MXFP8-NVFP4-NF3-Hybrid),
+and [official Z.ai GLM-5.2](https://huggingface.co/zai-org/GLM-5.2).
