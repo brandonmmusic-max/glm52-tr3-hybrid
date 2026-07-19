@@ -1,0 +1,150 @@
+/workspace/glm52-eval/benchmarks/IFBench/.venv/lib/python3.11/site-packages/syllapy/data_loader.py:3: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+I0719 10:49:36.795394 128082541623104 run_eval.py:56] Generating eval_results_strict...
+I0719 10:49:37.037945 128082541623104 run_eval.py:62] Accuracy: 0.736667
+I0719 10:49:37.041954 128082541623104 run_eval.py:76] Generated: /workspace/glm52-eval/results/ifbench/official_20260719/eval/GLM-5.2-eval_results_strict.jsonl
+================================================================
+/workspace/glm52-eval/results/ifbench/official_20260719/eval/GLM-5.2-eval_results_strict.jsonl Accuracy Scores:
+prompt-level: 0.7366666666666667
+instruction-level: 0.7587209302325582
+
+count 0.8769230769230769
+custom 0.9090909090909091
+format 0.8061224489795918
+ratio 0.7045454545454546
+repeat 0.4444444444444444
+sentence 0.6785714285714286
+words 0.6853932584269663
+
+count:conjunctions 1.0
+count:keywords_multiple 0.8
+count:numbers 1.0
+count:person_names 1.0
+count:pronouns 1.0
+count:punctuation 0.6666666666666666
+count:unique_word_count 0.7777777777777778
+count:word_count_range 0.7272727272727273
+count:words_japanese 1.0
+custom:character_reverse 1.0
+custom:csv_city 1.0
+custom:csv_quotes 1.0
+custom:csv_special_character 1.0
+custom:date_format_list 1.0
+custom:european_capitals_sort 0.0
+custom:mcq_count_length 1.0
+custom:multiples 1.0
+custom:reverse_newline 1.0
+custom:sentence_alphabet 1.0
+custom:word_reverse 1.0
+format:emoji 0.7777777777777778
+format:line_indent 0.2222222222222222
+format:list 0.8888888888888888
+format:newline 1.0
+format:no_bullets_bullets 0.8
+format:no_whitespace 1.0
+format:options 0.8333333333333334
+format:output_template 1.0
+format:parentheses 1.0
+format:quote_unquote 1.0
+format:quotes 0.875
+format:sub-bullets 0.8333333333333334
+format:thesis 1.0
+format:title_case 0.0
+ratio:overlap 0.0
+ratio:sentence_balance 0.8571428571428571
+ratio:sentence_type 1.0
+ratio:sentence_words 1.0
+ratio:stop_words 1.0
+repeat:repeat_change 1.0
+repeat:repeat_simple 0.5
+repeat:repeat_span 0.0
+sentence:alliteration_increment 0.4
+sentence:increment 0.625
+sentence:keyword 0.8
+words:alphabet 0.6666666666666666
+words:consonants 0.7333333333333333
+words:keywords_specific_position 0.5
+words:last_first 1.0
+words:no_consecutive 0.75
+words:odd_even_syllables 0.1111111111111111
+words:palindrome 1.0
+words:paragraph_last_first 0.6666666666666666
+words:prime_lengths 0.6
+words:repeats 1.0
+words:start_verb 0.3333333333333333
+words:vowel 0.8
+words:words_position 1.0
+I0719 10:49:37.042372 128082541623104 run_eval.py:56] Generating eval_results_loose...
+I0719 10:49:37.439666 128082541623104 run_eval.py:62] Accuracy: 0.766667
+I0719 10:49:37.443610 128082541623104 run_eval.py:76] Generated: /workspace/glm52-eval/results/ifbench/official_20260719/eval/GLM-5.2-eval_results_loose.jsonl
+================================================================
+/workspace/glm52-eval/results/ifbench/official_20260719/eval/GLM-5.2-eval_results_loose.jsonl Accuracy Scores:
+prompt-level: 0.7666666666666667
+instruction-level: 0.7877906976744186
+
+count 0.8769230769230769
+custom 0.9090909090909091
+format 0.8571428571428571
+ratio 0.7272727272727273
+repeat 0.4444444444444444
+sentence 0.6785714285714286
+words 0.7303370786516854
+
+count:conjunctions 1.0
+count:keywords_multiple 0.8
+count:numbers 1.0
+count:person_names 1.0
+count:pronouns 1.0
+count:punctuation 0.6666666666666666
+count:unique_word_count 0.7777777777777778
+count:word_count_range 0.7272727272727273
+count:words_japanese 1.0
+custom:character_reverse 1.0
+custom:csv_city 1.0
+custom:csv_quotes 1.0
+custom:csv_special_character 1.0
+custom:date_format_list 1.0
+custom:european_capitals_sort 0.0
+custom:mcq_count_length 1.0
+custom:multiples 1.0
+custom:reverse_newline 1.0
+custom:sentence_alphabet 1.0
+custom:word_reverse 1.0
+format:emoji 0.7777777777777778
+format:line_indent 0.5555555555555556
+format:list 0.8888888888888888
+format:newline 1.0
+format:no_bullets_bullets 0.8
+format:no_whitespace 1.0
+format:options 0.8333333333333334
+format:output_template 1.0
+format:parentheses 1.0
+format:quote_unquote 1.0
+format:quotes 0.875
+format:sub-bullets 1.0
+format:thesis 1.0
+format:title_case 0.0
+ratio:overlap 0.08333333333333333
+ratio:sentence_balance 0.8571428571428571
+ratio:sentence_type 1.0
+ratio:sentence_words 1.0
+ratio:stop_words 1.0
+repeat:repeat_change 1.0
+repeat:repeat_simple 0.5
+repeat:repeat_span 0.0
+sentence:alliteration_increment 0.4
+sentence:increment 0.625
+sentence:keyword 0.8
+words:alphabet 0.6666666666666666
+words:consonants 0.8
+words:keywords_specific_position 0.5
+words:last_first 1.0
+words:no_consecutive 0.75
+words:odd_even_syllables 0.1111111111111111
+words:palindrome 1.0
+words:paragraph_last_first 0.8333333333333334
+words:prime_lengths 0.6
+words:repeats 1.0
+words:start_verb 0.5
+words:vowel 0.9
+words:words_position 1.0

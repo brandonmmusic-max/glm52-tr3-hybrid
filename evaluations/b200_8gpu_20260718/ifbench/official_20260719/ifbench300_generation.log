@@ -1,0 +1,348 @@
+IFBench300: 0 complete, 300 pending
+complete=1/300 key=104 endpoint=http://127.0.0.1:9300 tokens=125 finish=stop attempts=1
+complete=2/300 key=103 endpoint=http://127.0.0.1:9400 tokens=255 finish=stop attempts=1
+complete=3/300 key=105 endpoint=http://127.0.0.1:9400 tokens=304 finish=stop attempts=1
+complete=4/300 key=15 endpoint=http://127.0.0.1:9400 tokens=341 finish=stop attempts=1
+complete=5/300 key=61 endpoint=http://127.0.0.1:9400 tokens=434 finish=stop attempts=1
+complete=6/300 key=63 endpoint=http://127.0.0.1:9400 tokens=374 finish=stop attempts=1
+complete=7/300 key=60 endpoint=http://127.0.0.1:9300 tokens=412 finish=stop attempts=1
+complete=8/300 key=33 endpoint=http://127.0.0.1:9400 tokens=550 finish=stop attempts=1
+complete=9/300 key=101 endpoint=http://127.0.0.1:9400 tokens=571 finish=stop attempts=1
+complete=10/300 key=65 endpoint=http://127.0.0.1:9400 tokens=655 finish=stop attempts=1
+complete=11/300 key=62 endpoint=http://127.0.0.1:9300 tokens=717 finish=stop attempts=1
+complete=12/300 key=55 endpoint=http://127.0.0.1:9400 tokens=575 finish=stop attempts=1
+complete=13/300 key=110 endpoint=http://127.0.0.1:9300 tokens=493 finish=stop attempts=1
+complete=14/300 key=78 endpoint=http://127.0.0.1:9300 tokens=509 finish=stop attempts=1
+complete=15/300 key=131 endpoint=http://127.0.0.1:9400 tokens=311 finish=stop attempts=1
+complete=16/300 key=107 endpoint=http://127.0.0.1:9400 tokens=508 finish=stop attempts=1
+complete=17/300 key=66 endpoint=http://127.0.0.1:9300 tokens=747 finish=stop attempts=1
+complete=18/300 key=72 endpoint=http://127.0.0.1:9300 tokens=676 finish=stop attempts=1
+complete=19/300 key=83 endpoint=http://127.0.0.1:9400 tokens=718 finish=stop attempts=1
+complete=20/300 key=8 endpoint=http://127.0.0.1:9300 tokens=665 finish=stop attempts=1
+complete=21/300 key=16 endpoint=http://127.0.0.1:9300 tokens=845 finish=stop attempts=1
+complete=22/300 key=109 endpoint=http://127.0.0.1:9400 tokens=799 finish=stop attempts=1
+complete=23/300 key=102 endpoint=http://127.0.0.1:9300 tokens=909 finish=stop attempts=1
+complete=24/300 key=94 endpoint=http://127.0.0.1:9300 tokens=1028 finish=stop attempts=1
+complete=25/300 key=98 endpoint=http://127.0.0.1:9300 tokens=982 finish=stop attempts=1
+complete=26/300 key=64 endpoint=http://127.0.0.1:9300 tokens=933 finish=stop attempts=1
+complete=27/300 key=100 endpoint=http://127.0.0.1:9300 tokens=886 finish=stop attempts=1
+complete=28/300 key=45 endpoint=http://127.0.0.1:9400 tokens=1242 finish=stop attempts=1
+complete=29/300 key=20 endpoint=http://127.0.0.1:9300 tokens=1167 finish=stop attempts=1
+complete=30/300 key=97 endpoint=http://127.0.0.1:9400 tokens=1250 finish=stop attempts=1
+complete=31/300 key=25 endpoint=http://127.0.0.1:9400 tokens=1304 finish=stop attempts=1
+complete=32/300 key=95 endpoint=http://127.0.0.1:9400 tokens=1498 finish=stop attempts=1
+complete=33/300 key=70 endpoint=http://127.0.0.1:9300 tokens=1593 finish=stop attempts=1
+complete=34/300 key=127 endpoint=http://127.0.0.1:9400 tokens=1381 finish=stop attempts=1
+complete=35/300 key=118 endpoint=http://127.0.0.1:9300 tokens=1603 finish=stop attempts=1
+complete=36/300 key=9 endpoint=http://127.0.0.1:9400 tokens=1649 finish=stop attempts=1
+complete=37/300 key=18 endpoint=http://127.0.0.1:9300 tokens=1745 finish=stop attempts=1
+complete=38/300 key=34 endpoint=http://127.0.0.1:9300 tokens=1437 finish=stop attempts=1
+complete=39/300 key=68 endpoint=http://127.0.0.1:9300 tokens=1719 finish=stop attempts=1
+complete=40/300 key=42 endpoint=http://127.0.0.1:9300 tokens=1920 finish=stop attempts=1
+complete=41/300 key=14 endpoint=http://127.0.0.1:9300 tokens=1705 finish=stop attempts=1
+complete=42/300 key=96 endpoint=http://127.0.0.1:9300 tokens=1938 finish=stop attempts=1
+complete=43/300 key=28 endpoint=http://127.0.0.1:9300 tokens=1909 finish=stop attempts=1
+complete=44/300 key=26 endpoint=http://127.0.0.1:9300 tokens=1347 finish=stop attempts=1
+complete=45/300 key=163 endpoint=http://127.0.0.1:9400 tokens=504 finish=stop attempts=1
+complete=46/300 key=12 endpoint=http://127.0.0.1:9300 tokens=2104 finish=stop attempts=1
+complete=47/300 key=32 endpoint=http://127.0.0.1:9300 tokens=2144 finish=stop attempts=1
+complete=48/300 key=128 endpoint=http://127.0.0.1:9300 tokens=2165 finish=stop attempts=1
+complete=49/300 key=27 endpoint=http://127.0.0.1:9400 tokens=2007 finish=stop attempts=1
+complete=50/300 key=155 endpoint=http://127.0.0.1:9400 tokens=872 finish=stop attempts=1
+complete=51/300 key=111 endpoint=http://127.0.0.1:9400 tokens=2273 finish=stop attempts=1
+complete=52/300 key=93 endpoint=http://127.0.0.1:9400 tokens=2378 finish=stop attempts=1
+complete=53/300 key=157 endpoint=http://127.0.0.1:9400 tokens=1120 finish=stop attempts=1
+complete=54/300 key=7 endpoint=http://127.0.0.1:9400 tokens=1912 finish=stop attempts=1
+complete=55/300 key=116 endpoint=http://127.0.0.1:9300 tokens=2467 finish=stop attempts=1
+complete=56/300 key=6 endpoint=http://127.0.0.1:9300 tokens=2325 finish=stop attempts=1
+complete=57/300 key=10 endpoint=http://127.0.0.1:9300 tokens=2664 finish=stop attempts=1
+complete=58/300 key=129 endpoint=http://127.0.0.1:9400 tokens=2496 finish=stop attempts=1
+complete=59/300 key=132 endpoint=http://127.0.0.1:9300 tokens=1546 finish=stop attempts=1
+complete=60/300 key=1 endpoint=http://127.0.0.1:9400 tokens=2505 finish=stop attempts=1
+complete=61/300 key=130 endpoint=http://127.0.0.1:9300 tokens=2368 finish=stop attempts=1
+complete=62/300 key=126 endpoint=http://127.0.0.1:9300 tokens=2475 finish=stop attempts=1
+complete=63/300 key=154 endpoint=http://127.0.0.1:9300 tokens=1565 finish=stop attempts=1
+complete=64/300 key=0 endpoint=http://127.0.0.1:9300 tokens=2686 finish=stop attempts=1
+complete=65/300 key=106 endpoint=http://127.0.0.1:9300 tokens=2998 finish=stop attempts=1
+complete=66/300 key=156 endpoint=http://127.0.0.1:9300 tokens=1896 finish=stop attempts=1
+complete=67/300 key=142 endpoint=http://127.0.0.1:9300 tokens=1961 finish=stop attempts=1
+complete=68/300 key=108 endpoint=http://127.0.0.1:9300 tokens=2991 finish=stop attempts=1
+complete=69/300 key=22 endpoint=http://127.0.0.1:9300 tokens=3205 finish=stop attempts=1
+complete=70/300 key=36 endpoint=http://127.0.0.1:9300 tokens=2855 finish=stop attempts=1
+complete=71/300 key=44 endpoint=http://127.0.0.1:9300 tokens=3645 finish=stop attempts=1
+complete=72/300 key=92 endpoint=http://127.0.0.1:9300 tokens=3560 finish=stop attempts=1
+complete=73/300 key=71 endpoint=http://127.0.0.1:9400 tokens=3010 finish=stop attempts=1
+complete=74/300 key=17 endpoint=http://127.0.0.1:9400 tokens=2896 finish=stop attempts=1
+complete=75/300 key=86 endpoint=http://127.0.0.1:9300 tokens=3154 finish=stop attempts=1
+complete=76/300 key=85 endpoint=http://127.0.0.1:9400 tokens=2798 finish=stop attempts=1
+complete=77/300 key=84 endpoint=http://127.0.0.1:9300 tokens=2894 finish=stop attempts=1
+complete=78/300 key=112 endpoint=http://127.0.0.1:9300 tokens=3290 finish=stop attempts=1
+complete=79/300 key=138 endpoint=http://127.0.0.1:9300 tokens=2412 finish=stop attempts=1
+complete=80/300 key=56 endpoint=http://127.0.0.1:9300 tokens=4015 finish=stop attempts=1
+complete=81/300 key=122 endpoint=http://127.0.0.1:9300 tokens=3634 finish=stop attempts=1
+complete=82/300 key=139 endpoint=http://127.0.0.1:9400 tokens=2214 finish=stop attempts=1
+complete=83/300 key=58 endpoint=http://127.0.0.1:9300 tokens=4116 finish=stop attempts=1
+complete=84/300 key=117 endpoint=http://127.0.0.1:9400 tokens=3444 finish=stop attempts=1
+complete=85/300 key=73 endpoint=http://127.0.0.1:9400 tokens=3198 finish=stop attempts=1
+complete=86/300 key=144 endpoint=http://127.0.0.1:9300 tokens=3082 finish=stop attempts=1
+complete=87/300 key=4 endpoint=http://127.0.0.1:9300 tokens=3873 finish=stop attempts=1
+complete=88/300 key=38 endpoint=http://127.0.0.1:9300 tokens=3767 finish=stop attempts=1
+complete=89/300 key=161 endpoint=http://127.0.0.1:9400 tokens=2049 finish=stop attempts=1
+complete=90/300 key=76 endpoint=http://127.0.0.1:9300 tokens=4267 finish=stop attempts=1
+complete=91/300 key=74 endpoint=http://127.0.0.1:9300 tokens=3988 finish=stop attempts=1
+complete=92/300 key=114 endpoint=http://127.0.0.1:9300 tokens=4020 finish=stop attempts=1
+complete=93/300 key=120 endpoint=http://127.0.0.1:9300 tokens=4021 finish=stop attempts=1
+complete=94/300 key=194 endpoint=http://127.0.0.1:9300 tokens=1636 finish=stop attempts=1
+complete=95/300 key=90 endpoint=http://127.0.0.1:9300 tokens=4257 finish=stop attempts=1
+complete=96/300 key=3 endpoint=http://127.0.0.1:9400 tokens=3868 finish=stop attempts=1
+complete=97/300 key=5 endpoint=http://127.0.0.1:9400 tokens=4257 finish=stop attempts=1
+complete=98/300 key=77 endpoint=http://127.0.0.1:9400 tokens=4165 finish=stop attempts=1
+complete=99/300 key=193 endpoint=http://127.0.0.1:9400 tokens=563 finish=stop attempts=1
+complete=100/300 key=119 endpoint=http://127.0.0.1:9400 tokens=3628 finish=stop attempts=1
+complete=101/300 key=140 endpoint=http://127.0.0.1:9300 tokens=2925 finish=stop attempts=1
+complete=102/300 key=121 endpoint=http://127.0.0.1:9400 tokens=3271 finish=stop attempts=1
+complete=103/300 key=67 endpoint=http://127.0.0.1:9400 tokens=3037 finish=stop attempts=1
+complete=104/300 key=46 endpoint=http://127.0.0.1:9300 tokens=5234 finish=stop attempts=1
+complete=105/300 key=57 endpoint=http://127.0.0.1:9400 tokens=4205 finish=stop attempts=1
+complete=106/300 key=29 endpoint=http://127.0.0.1:9400 tokens=3944 finish=stop attempts=1
+complete=107/300 key=41 endpoint=http://127.0.0.1:9400 tokens=4799 finish=stop attempts=1
+complete=108/300 key=141 endpoint=http://127.0.0.1:9400 tokens=4109 finish=stop attempts=1
+complete=109/300 key=30 endpoint=http://127.0.0.1:9300 tokens=5140 finish=stop attempts=1
+complete=110/300 key=47 endpoint=http://127.0.0.1:9400 tokens=4805 finish=stop attempts=1
+complete=111/300 key=2 endpoint=http://127.0.0.1:9300 tokens=5100 finish=stop attempts=1
+complete=112/300 key=53 endpoint=http://127.0.0.1:9400 tokens=4829 finish=stop attempts=1
+complete=113/300 key=162 endpoint=http://127.0.0.1:9300 tokens=3298 finish=stop attempts=1
+complete=114/300 key=31 endpoint=http://127.0.0.1:9400 tokens=3334 finish=stop attempts=1
+complete=115/300 key=59 endpoint=http://127.0.0.1:9400 tokens=5029 finish=stop attempts=1
+complete=116/300 key=134 endpoint=http://127.0.0.1:9300 tokens=4806 finish=stop attempts=1
+complete=117/300 key=197 endpoint=http://127.0.0.1:9400 tokens=1359 finish=stop attempts=1
+complete=118/300 key=135 endpoint=http://127.0.0.1:9400 tokens=4578 finish=stop attempts=1
+complete=119/300 key=123 endpoint=http://127.0.0.1:9400 tokens=5255 finish=stop attempts=1
+complete=120/300 key=23 endpoint=http://127.0.0.1:9400 tokens=5169 finish=stop attempts=1
+complete=121/300 key=21 endpoint=http://127.0.0.1:9400 tokens=5384 finish=stop attempts=1
+complete=122/300 key=115 endpoint=http://127.0.0.1:9400 tokens=5271 finish=stop attempts=1
+complete=123/300 key=146 endpoint=http://127.0.0.1:9300 tokens=4718 finish=stop attempts=1
+complete=124/300 key=198 endpoint=http://127.0.0.1:9300 tokens=3267 finish=stop attempts=1
+complete=125/300 key=199 endpoint=http://127.0.0.1:9400 tokens=1547 finish=stop attempts=1
+complete=126/300 key=43 endpoint=http://127.0.0.1:9400 tokens=6166 finish=stop attempts=1
+complete=127/300 key=225 endpoint=http://127.0.0.1:9400 tokens=1292 finish=stop attempts=1
+complete=128/300 key=39 endpoint=http://127.0.0.1:9400 tokens=5854 finish=stop attempts=1
+complete=129/300 key=192 endpoint=http://127.0.0.1:9300 tokens=3907 finish=stop attempts=1
+complete=130/300 key=89 endpoint=http://127.0.0.1:9400 tokens=6497 finish=stop attempts=1
+complete=131/300 key=137 endpoint=http://127.0.0.1:9400 tokens=6162 finish=stop attempts=1
+complete=132/300 key=51 endpoint=http://127.0.0.1:9400 tokens=6969 finish=stop attempts=1
+complete=133/300 key=221 endpoint=http://127.0.0.1:9400 tokens=1886 finish=stop attempts=1
+complete=134/300 key=234 endpoint=http://127.0.0.1:9300 tokens=2787 finish=stop attempts=1
+complete=135/300 key=170 endpoint=http://127.0.0.1:9300 tokens=5342 finish=stop attempts=1
+complete=136/300 key=262 endpoint=http://127.0.0.1:9300 tokens=978 finish=stop attempts=1
+complete=137/300 key=113 endpoint=http://127.0.0.1:9400 tokens=6370 finish=stop attempts=1
+complete=138/300 key=136 endpoint=http://127.0.0.1:9300 tokens=6806 finish=stop attempts=1
+complete=139/300 key=220 endpoint=http://127.0.0.1:9300 tokens=3702 finish=stop attempts=1
+complete=140/300 key=69 endpoint=http://127.0.0.1:9400 tokens=7012 finish=stop attempts=1
+complete=141/300 key=54 endpoint=http://127.0.0.1:9300 tokens=7932 finish=stop attempts=1
+complete=142/300 key=182 endpoint=http://127.0.0.1:9300 tokens=5350 finish=stop attempts=1
+complete=143/300 key=160 endpoint=http://127.0.0.1:9300 tokens=6448 finish=stop attempts=1
+complete=144/300 key=79 endpoint=http://127.0.0.1:9400 tokens=6963 finish=stop attempts=1
+complete=145/300 key=80 endpoint=http://127.0.0.1:9300 tokens=7951 finish=stop attempts=1
+complete=146/300 key=164 endpoint=http://127.0.0.1:9300 tokens=6660 finish=stop attempts=1
+complete=147/300 key=179 endpoint=http://127.0.0.1:9400 tokens=4779 finish=stop attempts=1
+complete=148/300 key=40 endpoint=http://127.0.0.1:9300 tokens=8210 finish=stop attempts=1
+complete=149/300 key=280 endpoint=http://127.0.0.1:9300 tokens=332 finish=stop attempts=1
+complete=150/300 key=274 endpoint=http://127.0.0.1:9300 tokens=643 finish=stop attempts=1
+complete=151/300 key=219 endpoint=http://127.0.0.1:9400 tokens=3259 finish=stop attempts=1
+complete=152/300 key=244 endpoint=http://127.0.0.1:9300 tokens=3473 finish=stop attempts=1
+complete=153/300 key=236 endpoint=http://127.0.0.1:9300 tokens=4039 finish=stop attempts=1
+complete=154/300 key=186 endpoint=http://127.0.0.1:9300 tokens=6246 finish=stop attempts=1
+complete=155/300 key=261 endpoint=http://127.0.0.1:9400 tokens=617 finish=stop attempts=1
+complete=156/300 key=242 endpoint=http://127.0.0.1:9300 tokens=3775 finish=stop attempts=1
+complete=157/300 key=195 endpoint=http://127.0.0.1:9400 tokens=4637 finish=stop attempts=1
+complete=158/300 key=276 endpoint=http://127.0.0.1:9300 tokens=1146 finish=stop attempts=1
+complete=159/300 key=284 endpoint=http://127.0.0.1:9300 tokens=647 finish=stop attempts=1
+complete=160/300 key=167 endpoint=http://127.0.0.1:9400 tokens=6423 finish=stop attempts=1
+complete=161/300 key=257 endpoint=http://127.0.0.1:9400 tokens=1351 finish=stop attempts=1
+complete=162/300 key=143 endpoint=http://127.0.0.1:9400 tokens=8415 finish=stop attempts=1
+complete=163/300 key=254 endpoint=http://127.0.0.1:9300 tokens=3914 finish=stop attempts=1
+complete=164/300 key=296 endpoint=http://127.0.0.1:9300 tokens=510 finish=stop attempts=1
+complete=165/300 key=222 endpoint=http://127.0.0.1:9300 tokens=5383 finish=stop attempts=1
+complete=166/300 key=185 endpoint=http://127.0.0.1:9400 tokens=6100 finish=stop attempts=1
+complete=167/300 key=258 endpoint=http://127.0.0.1:9300 tokens=3924 finish=stop attempts=1
+complete=168/300 key=239 endpoint=http://127.0.0.1:9400 tokens=3230 finish=stop attempts=1
+complete=169/300 key=133 endpoint=http://127.0.0.1:9400 tokens=8557 finish=stop attempts=1
+complete=170/300 key=275 endpoint=http://127.0.0.1:9400 tokens=515 finish=stop attempts=1
+complete=171/300 key=124 endpoint=http://127.0.0.1:9300 tokens=8941 finish=stop attempts=1
+complete=172/300 key=298 endpoint=http://127.0.0.1:9300 tokens=896 finish=stop attempts=1
+complete=173/300 key=147 endpoint=http://127.0.0.1:9400 tokens=8042 finish=stop attempts=1
+complete=174/300 key=174 endpoint=http://127.0.0.1:9300 tokens=7849 finish=stop attempts=1
+complete=175/300 key=292 endpoint=http://127.0.0.1:9300 tokens=1052 finish=stop attempts=1
+complete=176/300 key=184 endpoint=http://127.0.0.1:9300 tokens=7742 finish=stop attempts=1
+complete=177/300 key=286 endpoint=http://127.0.0.1:9300 tokens=1846 finish=stop attempts=1
+complete=178/300 key=246 endpoint=http://127.0.0.1:9300 tokens=5210 finish=stop attempts=1
+complete=179/300 key=235 endpoint=http://127.0.0.1:9400 tokens=3759 finish=stop attempts=1
+complete=180/300 key=169 endpoint=http://127.0.0.1:9400 tokens=7409 finish=stop attempts=1
+complete=181/300 key=187 endpoint=http://127.0.0.1:9400 tokens=6813 finish=stop attempts=1
+complete=182/300 key=175 endpoint=http://127.0.0.1:9400 tokens=7193 finish=stop attempts=1
+complete=183/300 key=177 endpoint=http://127.0.0.1:9400 tokens=7352 finish=stop attempts=1
+complete=184/300 key=190 endpoint=http://127.0.0.1:9300 tokens=7905 finish=stop attempts=1
+complete=185/300 key=282 endpoint=http://127.0.0.1:9300 tokens=2207 finish=stop attempts=1
+complete=186/300 key=260 endpoint=http://127.0.0.1:9300 tokens=3707 finish=stop attempts=1
+complete=187/300 key=224 endpoint=http://127.0.0.1:9300 tokens=6620 finish=stop attempts=1
+complete=188/300 key=165 endpoint=http://127.0.0.1:9400 tokens=7845 finish=stop attempts=1
+complete=189/300 key=238 endpoint=http://127.0.0.1:9300 tokens=6107 finish=stop attempts=1
+complete=190/300 key=189 endpoint=http://127.0.0.1:9400 tokens=7228 finish=stop attempts=1
+complete=191/300 key=75 endpoint=http://127.0.0.1:9400 tokens=10104 finish=stop attempts=1
+complete=192/300 key=87 endpoint=http://127.0.0.1:9400 tokens=10600 finish=stop attempts=1
+complete=193/300 key=297 endpoint=http://127.0.0.1:9400 tokens=388 finish=stop attempts=1
+complete=194/300 key=245 endpoint=http://127.0.0.1:9400 tokens=4106 finish=stop attempts=1
+complete=195/300 key=283 endpoint=http://127.0.0.1:9400 tokens=1303 finish=stop attempts=1
+complete=196/300 key=273 endpoint=http://127.0.0.1:9400 tokens=2079 finish=stop attempts=1
+complete=197/300 key=178 endpoint=http://127.0.0.1:9300 tokens=9257 finish=stop attempts=1
+complete=198/300 key=295 endpoint=http://127.0.0.1:9400 tokens=1233 finish=stop attempts=1
+complete=199/300 key=181 endpoint=http://127.0.0.1:9400 tokens=8063 finish=stop attempts=1
+complete=200/300 key=204 endpoint=http://127.0.0.1:9300 tokens=8688 finish=stop attempts=1
+complete=201/300 key=293 endpoint=http://127.0.0.1:9400 tokens=1608 finish=stop attempts=1
+complete=202/300 key=279 endpoint=http://127.0.0.1:9400 tokens=2438 finish=stop attempts=1
+complete=203/300 key=255 endpoint=http://127.0.0.1:9400 tokens=5138 finish=stop attempts=1
+complete=204/300 key=188 endpoint=http://127.0.0.1:9300 tokens=10259 finish=stop attempts=1
+complete=205/300 key=243 endpoint=http://127.0.0.1:9400 tokens=5237 finish=stop attempts=1
+complete=206/300 key=237 endpoint=http://127.0.0.1:9400 tokens=6301 finish=stop attempts=1
+complete=207/300 key=203 endpoint=http://127.0.0.1:9400 tokens=7594 finish=stop attempts=1
+complete=208/300 key=166 endpoint=http://127.0.0.1:9300 tokens=11587 finish=stop attempts=1
+complete=209/300 key=240 endpoint=http://127.0.0.1:9300 tokens=8643 finish=stop attempts=1
+complete=210/300 key=50 endpoint=http://127.0.0.1:9300 tokens=13844 finish=stop attempts=1
+complete=211/300 key=208 endpoint=http://127.0.0.1:9300 tokens=9453 finish=stop attempts=1
+complete=212/300 key=233 endpoint=http://127.0.0.1:9400 tokens=7429 finish=stop attempts=1
+complete=213/300 key=294 endpoint=http://127.0.0.1:9300 tokens=4817 finish=stop attempts=1
+complete=214/300 key=81 endpoint=http://127.0.0.1:9400 tokens=12511 finish=stop attempts=1
+complete=215/300 key=248 endpoint=http://127.0.0.1:9300 tokens=8563 finish=stop attempts=1
+complete=216/300 key=152 endpoint=http://127.0.0.1:9300 tokens=12447 finish=stop attempts=1
+complete=217/300 key=232 endpoint=http://127.0.0.1:9300 tokens=10195 finish=stop attempts=1
+complete=218/300 key=241 endpoint=http://127.0.0.1:9400 tokens=6780 finish=stop attempts=1
+complete=219/300 key=171 endpoint=http://127.0.0.1:9400 tokens=10937 finish=stop attempts=1
+complete=220/300 key=287 endpoint=http://127.0.0.1:9400 tokens=4204 finish=stop attempts=1
+complete=221/300 key=259 endpoint=http://127.0.0.1:9400 tokens=6679 finish=stop attempts=1
+complete=222/300 key=173 endpoint=http://127.0.0.1:9400 tokens=11937 finish=stop attempts=1
+complete=223/300 key=153 endpoint=http://127.0.0.1:9400 tokens=12207 finish=stop attempts=1
+complete=224/300 key=278 endpoint=http://127.0.0.1:9300 tokens=6563 finish=stop attempts=1
+complete=225/300 key=268 endpoint=http://127.0.0.1:9300 tokens=6786 finish=stop attempts=1
+complete=226/300 key=256 endpoint=http://127.0.0.1:9300 tokens=10549 finish=stop attempts=1
+complete=227/300 key=285 endpoint=http://127.0.0.1:9400 tokens=5745 finish=stop attempts=1
+complete=228/300 key=251 endpoint=http://127.0.0.1:9400 tokens=7442 finish=stop attempts=1
+complete=229/300 key=205 endpoint=http://127.0.0.1:9400 tokens=10992 finish=stop attempts=1
+complete=230/300 key=299 endpoint=http://127.0.0.1:9400 tokens=5062 finish=stop attempts=1
+complete=231/300 key=228 endpoint=http://127.0.0.1:9300 tokens=13093 finish=stop attempts=1
+complete=232/300 key=250 endpoint=http://127.0.0.1:9300 tokens=12164 finish=stop attempts=1
+complete=233/300 key=253 endpoint=http://127.0.0.1:9400 tokens=9017 finish=stop attempts=1
+complete=234/300 key=168 endpoint=http://127.0.0.1:9300 tokens=15169 finish=stop attempts=1
+complete=235/300 key=201 endpoint=http://127.0.0.1:9400 tokens=12550 finish=stop attempts=1
+complete=236/300 key=196 endpoint=http://127.0.0.1:9300 tokens=15194 finish=stop attempts=1
+complete=237/300 key=206 endpoint=http://127.0.0.1:9300 tokens=14126 finish=stop attempts=1
+complete=238/300 key=291 endpoint=http://127.0.0.1:9400 tokens=7403 finish=stop attempts=1
+complete=239/300 key=266 endpoint=http://127.0.0.1:9300 tokens=11218 finish=stop attempts=1
+complete=240/300 key=211 endpoint=http://127.0.0.1:9400 tokens=14084 finish=stop attempts=1
+complete=241/300 key=180 endpoint=http://127.0.0.1:9300 tokens=16820 finish=stop attempts=1
+complete=242/300 key=227 endpoint=http://127.0.0.1:9400 tokens=14398 finish=stop attempts=1
+complete=243/300 key=217 endpoint=http://127.0.0.1:9400 tokens=14298 finish=stop attempts=1
+complete=244/300 key=191 endpoint=http://127.0.0.1:9400 tokens=14427 finish=stop attempts=1
+complete=245/300 key=289 endpoint=http://127.0.0.1:9400 tokens=10170 finish=stop attempts=1
+complete=246/300 key=223 endpoint=http://127.0.0.1:9400 tokens=16856 finish=stop attempts=1
+complete=247/300 key=272 endpoint=http://127.0.0.1:9300 tokens=14473 finish=stop attempts=1
+complete=248/300 key=226 endpoint=http://127.0.0.1:9300 tokens=28531 finish=stop attempts=1
+complete=249/300 key=200 endpoint=http://127.0.0.1:9300 tokens=30583 finish=stop attempts=1
+complete=250/300 key=172 endpoint=http://127.0.0.1:9300 tokens=791 finish=stop attempts=2
+complete=251/300 key=13 endpoint=http://127.0.0.1:9400 tokens=4642 finish=stop attempts=2
+complete=252/300 key=24 endpoint=http://127.0.0.1:9300 tokens=5469 finish=stop attempts=2
+complete=253/300 key=19 endpoint=http://127.0.0.1:9400 tokens=6823 finish=stop attempts=2
+complete=254/300 key=82 endpoint=http://127.0.0.1:9300 tokens=6794 finish=stop attempts=2
+complete=255/300 key=149 endpoint=http://127.0.0.1:9400 tokens=8086 finish=stop attempts=2
+complete=256/300 key=148 endpoint=http://127.0.0.1:9300 tokens=8855 finish=stop attempts=2
+complete=257/300 key=37 endpoint=http://127.0.0.1:9400 tokens=11554 finish=stop attempts=2
+complete=258/300 key=231 endpoint=http://127.0.0.1:9400 tokens=8121 finish=stop attempts=2
+complete=259/300 key=263 endpoint=http://127.0.0.1:9400 tokens=6553 finish=stop attempts=2
+complete=260/300 key=281 endpoint=http://127.0.0.1:9400 tokens=6819 finish=stop attempts=2
+complete=261/300 key=252 endpoint=http://127.0.0.1:9300 tokens=11629 finish=stop attempts=2
+complete=262/300 key=35 endpoint=http://127.0.0.1:9400 tokens=15559 finish=stop attempts=2
+complete=263/300 key=151 endpoint=http://127.0.0.1:9400 tokens=15406 finish=stop attempts=2
+complete=264/300 key=229 endpoint=http://127.0.0.1:9400 tokens=13240 finish=stop attempts=2
+complete=265/300 key=265 endpoint=http://127.0.0.1:9400 tokens=8178 finish=stop attempts=2
+complete=266/300 key=277 endpoint=http://127.0.0.1:9400 tokens=9965 finish=stop attempts=2
+complete=267/300 key=271 endpoint=http://127.0.0.1:9400 tokens=10649 finish=stop attempts=2
+complete=268/300 key=159 endpoint=http://127.0.0.1:9400 tokens=18214 finish=stop attempts=2
+complete=269/300 key=145 endpoint=http://127.0.0.1:9400 tokens=16498 finish=stop attempts=2
+complete=270/300 key=288 endpoint=http://127.0.0.1:9300 tokens=11426 finish=stop attempts=2
+complete=271/300 key=270 endpoint=http://127.0.0.1:9300 tokens=14334 finish=stop attempts=2
+complete=272/300 key=290 endpoint=http://127.0.0.1:9300 tokens=14241 finish=stop attempts=2
+complete=273/300 key=125 endpoint=http://127.0.0.1:9400 tokens=763 finish=stop attempts=3
+complete=274/300 key=183 endpoint=http://127.0.0.1:9400 tokens=11397 finish=stop attempts=3
+complete=275/300 key=49 endpoint=http://127.0.0.1:9400 tokens=17180 finish=stop attempts=3
+complete=276/300 key=267 endpoint=http://127.0.0.1:9400 tokens=12547 finish=stop attempts=3
+complete=277/300 key=264 endpoint=http://127.0.0.1:9300 tokens=12537 finish=stop attempts=3
+complete=278/300 key=176 endpoint=http://127.0.0.1:9300 tokens=21646 finish=stop attempts=3
+complete=279/300 key=218 endpoint=http://127.0.0.1:9300 tokens=27741 finish=stop attempts=3
+complete=280/300 key=91 endpoint=http://127.0.0.1:9400 tokens=3834 finish=stop attempts=4
+complete=281/300 key=212 endpoint=http://127.0.0.1:9300 tokens=31153 finish=stop attempts=3
+complete=282/300 key=209 endpoint=http://127.0.0.1:9400 tokens=14675 finish=stop attempts=4
+complete=283/300 key=202 endpoint=http://127.0.0.1:9300 tokens=15586 finish=stop attempts=4
+complete=284/300 key=216 endpoint=http://127.0.0.1:9300 tokens=20330 finish=stop attempts=4
+complete=285/300 key=158 endpoint=http://127.0.0.1:9300 tokens=32120 finish=stop attempts=4
+complete=286/300 key=269 endpoint=http://127.0.0.1:9400 tokens=7096 finish=stop attempts=5
+complete=287/300 key=48 endpoint=http://127.0.0.1:9300 tokens=23839 finish=stop attempts=5
+complete=288/300 key=207 endpoint=http://127.0.0.1:9400 tokens=28305 finish=stop attempts=5
+complete=289/300 key=215 endpoint=http://127.0.0.1:9400 tokens=12613 finish=stop attempts=6
+complete=290/300 key=214 endpoint=http://127.0.0.1:9300 tokens=11257 finish=stop attempts=6
+Traceback (most recent call last):
+  File "/workspace/glm52-eval/orchestration/run_ifbench_dual.py", line 174, in <module>
+    main()
+  File "/workspace/glm52-eval/orchestration/run_ifbench_dual.py", line 123, in main
+    row = future.result()
+          ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/glm52-eval/orchestration/run_ifbench_dual.py", line 78, in request_one
+    raise RuntimeError(f"key={item['key']} failed after {args.max_attempts} attempts: {last_error}")
+RuntimeError: key=99 failed after 8 attempts: RuntimeError: empty message.content
+IFBench300: 290 complete, 10 pending
+complete=291/300 key=150 endpoint=http://127.0.0.1:9300 tokens=32768 finish=length attempts=1
+complete=292/300 key=52 endpoint=http://127.0.0.1:9300 tokens=32768 finish=length attempts=1
+complete=293/300 key=88 endpoint=http://127.0.0.1:9300 tokens=32768 finish=length attempts=1
+complete=294/300 key=230 endpoint=http://127.0.0.1:9300 tokens=32768 finish=length attempts=1
+complete=295/300 key=210 endpoint=http://127.0.0.1:9300 tokens=32768 finish=length attempts=1
+complete=296/300 key=99 endpoint=http://127.0.0.1:9400 tokens=32768 finish=length attempts=1
+complete=297/300 key=247 endpoint=http://127.0.0.1:9400 tokens=32768 finish=length attempts=1
+complete=298/300 key=11 endpoint=http://127.0.0.1:9400 tokens=32768 finish=length attempts=1
+complete=299/300 key=249 endpoint=http://127.0.0.1:9400 tokens=32768 finish=length attempts=1
+complete=300/300 key=213 endpoint=http://127.0.0.1:9400 tokens=32450 finish=stop attempts=1
+{
+  "api_errors_final": 0,
+  "benchmark": "official IFBench test",
+  "elapsed_seconds_this_invocation": 908.2857677936554,
+  "endpoints": [
+    "http://127.0.0.1:9300",
+    "http://127.0.0.1:9400"
+  ],
+  "finish_reasons": {
+    "length": 9,
+    "stop": 291
+  },
+  "input_sha256": "a2bf7b8e7ed11d39c65b4ec781da8b99663ed0121f97033d70fcecb61f8a9d85",
+  "max_infrastructure_attempts": 8,
+  "max_tokens": 32768,
+  "model": "GLM-5.2",
+  "raw_output_sha256": "bb367a47d2dbd4cb183c3ccfdffa17c02d482768eb0f57d3680fbfcec26efa6b",
+  "request_timeout_seconds": 7200.0,
+  "requested": 300,
+  "scorer_output_sha256": "b1d314d5f753cd17e4ec44123ed5c8bfae6806d910ad8b13c4c903efe0fd6109",
+  "seed": 0,
+  "sharding": "even keys to endpoint A, odd keys to endpoint B",
+  "successful": 300,
+  "temperature": 0.0,
+  "total_attempts": 376,
+  "total_completion_tokens": 2072396,
+  "unique_keys": 300,
+  "workers_per_endpoint": 64
+}

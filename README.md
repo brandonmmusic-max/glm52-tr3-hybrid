@@ -86,6 +86,24 @@ count is a generation-level summary, not 792 independent benchmark questions.
 Raw JSON, terminal captures, the pass-1 merge script, and checksums are under
 [`evaluations/b200_8gpu_20260718/gpqa`](evaluations/b200_8gpu_20260718/gpqa).
 
+### IFBench results (8x NVIDIA B200)
+
+The official 300-prompt IFBench evaluation scored **76.67% prompt-level loose**
+(230/300), the primary metric reported by the IFBench paper, and **73.67%
+prompt-level strict** (221/300). Instruction-level accuracy was 78.78% loose
+and 75.87% strict.
+
+Protocol: the official IFBench test set and scorer at commit
+`1091c4c3de6c1f6ed12c012ed68f11ea450b0117`, temperature 0, seed 0,
+`max_tokens=32768`, and deterministic even/odd sharding across the two B200
+endpoints. All 300 unique prompts produced retained HTTP-success outcomes with
+zero final API errors. Nine responses reached the token cap without final
+answer content; they were retained as empty answers and scored as failures.
+
+Raw responses, transformed scorer input, per-example strict/loose results,
+logs, protocol metadata, and checksums are under
+[`evaluations/b200_8gpu_20260718/ifbench/official_20260719`](evaluations/b200_8gpu_20260718/ifbench/official_20260719).
+
 #### Published-model comparison
 
 The four validated passes average **90.53%** (717 correct across four repeats of
@@ -98,7 +116,7 @@ serving stack, prompt formatting, and harness details may differ.
 |---|---:|---:|---:|---:|---:|
 | NVIDIA GLM-5.2 FP8 baseline | 89.52 | 49.85 | 74.95 | 69.38 | 97.9 |
 | NVIDIA full NVFP4 | 89.39 | 49.04 | 75.81 | 70.13 | 98.25 |
-| **GLM-5.2-NVFP4-TR3-Hybrid (this model, four-pass mean)** | **90.53** | *pending* | *pending* | *pending* | *pending* |
+| **GLM-5.2-NVFP4-TR3-Hybrid (this model, four-pass GPQA mean)** | **90.53** | *pending* | **76.67** | *pending* | *pending* |
 | madeby561 MXFP8/NVFP4/NF3 Hybrid v3.6 | 88.89 | *pending* | *pending* | *pending* | *pending* |
 | madeby561 previous build `718f3f7472ec` | 88.38 | *pending* | *pending* | *pending* | *pending* |
 | REAP-594B prune (contrast) | 86.87 | 47.77 | - | - | - |

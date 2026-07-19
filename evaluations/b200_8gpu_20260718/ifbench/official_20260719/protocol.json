@@ -1,0 +1,21 @@
+{
+  "benchmark": "official IFBench test",
+  "dataset_items": 300,
+  "dataset_unique_items": 300,
+  "dataset_sha256": "a2bf7b8e7ed11d39c65b4ec781da8b99663ed0121f97033d70fcecb61f8a9d85",
+  "ifbench_commit": "1091c4c3de6c1f6ed12c012ed68f11ea450b0117",
+  "temperature": 0.0,
+  "seed": 0,
+  "max_tokens": 32768,
+  "request_timeout_seconds": 7200,
+  "workers_per_endpoint": 64,
+  "sharding": "even keys to endpoint A, odd keys to endpoint B",
+  "retry_policy": "infrastructure failures only",
+  "retained_http_successes": 300,
+  "final_api_errors": 0,
+  "empty_final_answers": 9,
+  "prompt_level_strict": 0.7366666666666667,
+  "prompt_level_loose": 0.7666666666666667,
+  "instruction_level_strict": 0.7587209302325582,
+  "instruction_level_loose": 0.7877906976744186
+}
