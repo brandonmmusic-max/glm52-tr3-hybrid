@@ -58,31 +58,37 @@ under [`evaluations/decode`](evaluations/decode) and [`evidence/containers`](evi
 
 ## Evaluation record
 
-### Interim GPQA Diamond results (8x NVIDIA B200)
+### GPQA Diamond results (8x NVIDIA B200)
 
-Three of four planned independent stochastic passes are fully validated and
+All four planned independent stochastic passes are fully validated and
 published. Each pass scores the complete official 198-item GPQA Diamond split.
 
 | Pass | Correct | Wrong | Accuracy | API errors | Status |
 |---|---:|---:|---:|---:|---|
 | 1 | 181 | 17 | **91.41%** | 0 | validated |
 | 2 | 178 | 20 | **89.90%** | 0 | validated |
+| 3 | 179 | 19 | **90.40%** | 0 | validated |
 | 4 | 179 | 19 | **90.40%** | 0 | validated |
 
 Protocol: `llm-decode-bench` 0.4.29, fixed concurrency 64,
 `max_tokens=100000`, temperature 1.0, top-p 0.95, deterministic per-item option
 shuffle, and exact option-letter scoring. Pass 1 is a canonical merge of a
 deterministic 64-item shard and its exact 134-item complement; their item-ID
-sets are disjoint and their union is exactly all 198 items. Pass 3, IFBench,
-and Aider Polyglot remain in progress, so these are deliberately
-labeled interim rather than a final aggregate.
+sets are disjoint and their union is exactly all 198 items.
+
+The four-pass mean is **90.53%**: 717 correct across 792 repeated stochastic
+generations of the same 198-item set, with a per-pass range of 89.90%-91.41%
+and sample SD 0.64 percentage points. Across all passes there were 75 wrong
+answers, seven truncated/no-answer generations, 31 generations reaching the
+100K cap, zero API errors, and 20,043,342 completion tokens. The pooled 792
+count is a generation-level summary, not 792 independent benchmark questions.
 
 Raw JSON, terminal captures, the pass-1 merge script, and checksums are under
 [`evaluations/b200_8gpu_20260718/gpqa`](evaluations/b200_8gpu_20260718/gpqa).
 
 #### Published-model comparison
 
-The three validated passes average **90.57%** (538 correct across three repeats of
+The four validated passes average **90.53%** (717 correct across four repeats of
 the same 198-item set; pass range 89.90%-91.41%). The other rows below are
 reported by their linked model cards. This is useful context, not a controlled
 A/B: sampling parameters align for the NVIDIA/madeby561 rows, but checkpoint,
@@ -92,7 +98,7 @@ serving stack, prompt formatting, and harness details may differ.
 |---|---:|---:|---:|---:|---:|
 | NVIDIA GLM-5.2 FP8 baseline | 89.52 | 49.85 | 74.95 | 69.38 | 97.9 |
 | NVIDIA full NVFP4 | 89.39 | 49.04 | 75.81 | 70.13 | 98.25 |
-| **GLM-5.2-NVFP4-TR3-Hybrid (this model, interim three-pass mean)** | **90.57** | *pending* | *pending* | *pending* | *pending* |
+| **GLM-5.2-NVFP4-TR3-Hybrid (this model, four-pass mean)** | **90.53** | *pending* | *pending* | *pending* | *pending* |
 | madeby561 MXFP8/NVFP4/NF3 Hybrid v3.6 | 88.89 | *pending* | *pending* | *pending* | *pending* |
 | madeby561 previous build `718f3f7472ec` | 88.38 | *pending* | *pending* | *pending* | *pending* |
 | REAP-594B prune (contrast) | 86.87 | 47.77 | - | - | - |
