@@ -63,7 +63,7 @@ MTP2/3/5 only alter speculative serving.
 
 ## GPQA Diamond on 8x NVIDIA B200 (interim)
 
-Two of four planned independent passes are complete and validated. These runs
+Three of four planned independent passes are complete and validated. These runs
 used two unchanged TP4/DCP4 endpoints, each backed by four B200 GPUs, while the
 passes ran concurrently across the eight-GPU host.
 
@@ -71,6 +71,7 @@ passes ran concurrently across the eight-GPU host.
 |---|---:|---:|---:|---:|---:|---:|---:|
 | 1 | 181 | 17 | **91.41%** | 86.68%-94.57% | 9 | 1 | 0 |
 | 2 | 178 | 20 | **89.90%** | 84.91%-93.37% | 9 | 3 | 0 |
+| 4 | 179 | 19 | **90.40%** | 85.50%-93.77% | 5 | 0 | 0 |
 
 Both artifacts report requested = attempted = scored = 198 and
 `interrupted=false`. Truncated/no-answer items are included as wrong, not
@@ -84,16 +85,16 @@ Pass 1 was executed as a deterministic 64-item shard followed by its exact
 134-item complement. The two item-ID/index sets were validated disjoint, with
 zero omissions or duplicates and an exact 198-item union, then merged in
 canonical item-ID order. Both source shards, the merge script, and the canonical
-result are retained. Passes 3-4 are still running; IFBench and Aider Polyglot
+result are retained. Pass 3 is still running; IFBench and Aider Polyglot
 will follow, so no four-pass aggregate is claimed yet.
 
 ### External comparison context
 
-Across the two completed passes, this model has 359 correct responses over two
-repeats of the same 198-item set: a **90.66% interim mean**, with individual
-passes at 91.41% and 89.90%. This is 1.14 percentage points above the 89.52 FP8
-baseline reported on NVIDIA's GLM-5.2-NVFP4 card, 1.27 points above NVIDIA's
-89.39 full-NVFP4 result, and 1.77 points above the 88.89 madeby561 hybrid v3.6
+Across the three completed passes, this model has 538 correct responses over
+three repeats of the same 198-item set: a **90.57% interim mean**, with individual
+passes at 91.41%, 89.90%, and 90.40%. This is 1.05 percentage points above the
+89.52 FP8 baseline reported on NVIDIA's GLM-5.2-NVFP4 card, 1.18 points above
+NVIDIA's 89.39 full-NVFP4 result, and 1.68 points above the 88.89 madeby561 hybrid v3.6
 result. These differences are descriptive, not causal: the published cards
 align on temperature 1.0 and top-p 0.95, and NVIDIA specifies a 100,000-token
 GPQA output cap, but the serving stacks, prompt construction, and harnesses are
