@@ -104,6 +104,35 @@ Raw responses, transformed scorer input, per-example strict/loose results,
 logs, protocol metadata, and checksums are under
 [`evaluations/b200_8gpu_20260718/ifbench/official_20260719`](evaluations/b200_8gpu_20260718/ifbench/official_20260719).
 
+### Aider Polyglot results (8x NVIDIA B200)
+
+The finalized portion of the official 225-task Aider Polyglot pass@2 run scored
+**43.89% pass@1** (97/221) and **85.52% pass@2** (189/221). Coverage is
+221/225 tasks (98.22%). Four tasks entered repeated client-timeout/backoff loops
+and the run was called by user decision: `go/connect`, `go/robot-simulator`,
+`java/rational-numbers`, and `java/zipper`. These four are
+**infrastructure-incomplete, excluded from the denominator, and not counted as
+incorrect solutions**.
+
+| Language | Finalized | Pass@1 | Pass@2 |
+|---|---:|---:|---:|
+| C++ | 26 | 9/26 (34.62%) | 23/26 (88.46%) |
+| Go | 37 | 21/37 (56.76%) | 31/37 (83.78%) |
+| Java | 45 | 18/45 (40.00%) | 39/45 (86.67%) |
+| JavaScript | 49 | 20/49 (40.82%) | 42/49 (85.71%) |
+| Python | 34 | 15/34 (44.12%) | 31/34 (91.18%) |
+| Rust | 30 | 14/30 (46.67%) | 23/30 (76.67%) |
+
+Protocol: official Aider commit `5dc9490`, Polyglot benchmark commit `7e0611e`,
+whole-file edit format, two attempts per task, eight threads per four-GPU
+endpoint, `max_tokens=32768`, and temperature disabled. The complete 120 MB raw
+archive is published on Hugging Face; the GitHub evaluation directory contains
+the validated per-task JSONL/CSV, summary, exact configuration, logs, and a
+checksum manifest for the full archive.
+
+Artifacts are under
+[`evaluations/b200_8gpu_20260718/aider`](evaluations/b200_8gpu_20260718/aider).
+
 #### Published-model comparison
 
 The four validated passes average **90.53%** (717 correct across four repeats of
@@ -112,14 +141,17 @@ reported by their linked model cards. This is useful context, not a controlled
 A/B: sampling parameters align for the NVIDIA/madeby561 rows, but checkpoint,
 serving stack, prompt formatting, and harness details may differ.
 
-| Model/build | GPQA Diamond | SciCode | IFBench | AA-LCR | τ²-Bench Telecom |
-|---|---:|---:|---:|---:|---:|
-| NVIDIA GLM-5.2 FP8 baseline | 89.52 | 49.85 | 74.95 | 69.38 | 97.9 |
-| NVIDIA full NVFP4 | 89.39 | 49.04 | 75.81 | 70.13 | 98.25 |
-| **GLM-5.2-NVFP4-TR3-Hybrid (this model, four-pass GPQA mean)** | **90.53** | *pending* | **76.67** | *pending* | *pending* |
-| madeby561 MXFP8/NVFP4/NF3 Hybrid v3.6 | 88.89 | *pending* | *pending* | *pending* | *pending* |
-| madeby561 previous build `718f3f7472ec` | 88.38 | *pending* | *pending* | *pending* | *pending* |
-| REAP-594B prune (contrast) | 86.87 | 47.77 | - | - | - |
+| Model/build | GPQA Diamond | Aider Polyglot pass@2 | SciCode | IFBench | AA-LCR | τ²-Bench Telecom |
+|---|---:|---:|---:|---:|---:|---:|
+| NVIDIA GLM-5.2 FP8 baseline | 89.52 | — | 49.85 | 74.95 | 69.38 | 97.9 |
+| NVIDIA full NVFP4 | 89.39 | — | 49.04 | 75.81 | 70.13 | 98.25 |
+| **GLM-5.2-NVFP4-TR3-Hybrid (this model)** | **90.53** (four-pass mean) | **85.52†** | *pending* | **76.67** | *pending* | *pending* |
+| madeby561 MXFP8/NVFP4/NF3 Hybrid v3.6 | 88.89 | — | *pending* | *pending* | *pending* | *pending* |
+| madeby561 previous build `718f3f7472ec` | 88.38 | — | *pending* | *pending* | *pending* | *pending* |
+| REAP-594B prune (contrast) | 86.87 | — | 47.77 | - | - | - |
+
+† Aider score uses the 221 finalized-task denominator; four infrastructure-incomplete
+tasks are excluded as described above.
 
 Sources: [NVIDIA GLM-5.2-NVFP4](https://huggingface.co/nvidia/GLM-5.2-NVFP4),
 [madeby561 hybrid v3.6](https://huggingface.co/madeby561/GLM-5.2-MXFP8-NVFP4-NF3-Hybrid),
