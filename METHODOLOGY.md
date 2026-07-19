@@ -47,6 +47,25 @@ four concurrent 128K requests and failed with a documented CUDA OOM. The proven
 - Each run produces JSON, a raw Rich terminal typescript, and an ANSI-clean text
   rendering. The runner retries an incomplete suite up to three times.
 
+## B200 GPQA Diamond production evaluation (2026-07-19)
+
+- Hardware: 8x NVIDIA B200, split into two independent TP4/DCP4 SM100 serving
+  endpoints (GPUs 0-3 and 4-7).
+- Serving: FP8 KV cache, MTP3, maximum sequences 64, maximum model length
+  131,072, GPU memory utilization 0.970.
+- Benchmark: `llm-decode-bench` 0.4.29, official GPQA Diamond 198-item split,
+  fixed concurrency 64, `max_tokens=100000`, temperature 1.0, top-p 0.95.
+- Scoring: deterministic per-item option shuffle and exact final option-letter
+  match. Truncations and missing final answers count as wrong.
+- Acceptance gate: requested = attempted = scored = 198, zero request errors,
+  `interrupted=false`, and exactly 198 unique official item IDs.
+- Pass 1 disclosure: the first 64 items were a deterministic probe shard using
+  indices `floor(i*198/64)`. Its exact 134-index complement was run with the same
+  protocol. The shards were validated disjoint and exhaustive, then merged in
+  canonical item-ID order; both sources and the merge program are published.
+- Four stochastic passes are planned. The first two are published as interim
+  results; the final report will add passes 3-4 and aggregate statistics.
+
 ## Limitations
 
 - KLD uses a single 2,048-token window per run; repeated variants use five runs,
