@@ -1,0 +1,189 @@
+{
+  "benchmark": "GPQA Diamond",
+  "protocol": {
+    "llm_decode_bench_version": "0.4.29",
+    "official_items": 198,
+    "passes": 4,
+    "fixed_concurrency": 64,
+    "max_tokens": 100000,
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "dataset_sha256": "a8472c5a82ea2df8f209c17713aba1a6d409120c609ec0582dae0cb940c7e28c",
+    "pass1_merge_disclosure": "canonical item_id order; deterministic probe64 plus exact complement134"
+  },
+  "validation": {
+    "unique_item_ids_per_pass": 198,
+    "identical_item_id_sets": true,
+    "errors": 0,
+    "all_interrupted_false": true
+  },
+  "per_pass": [
+    {
+      "pass": 1,
+      "correct": 181,
+      "wrong": 17,
+      "accuracy": 0.9141414141414141,
+      "wilson95_low": 0.8668146452239279,
+      "wilson95_high": 0.9457042540595401,
+      "truncated_no_answer": 1,
+      "hit_max_tokens": 9,
+      "errors": 0,
+      "completion_tokens": {
+        "total": 5216943.0,
+        "avg": 26348.196969696968,
+        "min": 403.0,
+        "max": 100000.0,
+        "p50": 15479.5,
+        "p90": 71388.5,
+        "p99": 100000.0
+      },
+      "finish_reasons": {
+        "length": 9,
+        "stop": 189
+      },
+      "score_labels": {
+        "exact": 181,
+        "fail": 16,
+        "truncated": 1
+      },
+      "aggregate_gen_tok_s": 13.165623295735289,
+      "aggregate_e2e_tok_s": 13.138462463943265,
+      "mean_gen_tok_s": 12.477948542350056,
+      "mean_e2e_tok_s": 12.358927009526212
+    },
+    {
+      "pass": 2,
+      "correct": 178,
+      "wrong": 20,
+      "accuracy": 0.898989898989899,
+      "wilson95_low": 0.8491362914674044,
+      "wilson95_high": 0.933656306622766,
+      "truncated_no_answer": 3,
+      "hit_max_tokens": 9,
+      "errors": 0,
+      "completion_tokens": {
+        "total": 4962186.0,
+        "avg": 25061.545454545456,
+        "min": 416.0,
+        "max": 100000.0,
+        "p50": 14687.0,
+        "p90": 70132.2000000001,
+        "p99": 100000.0
+      },
+      "finish_reasons": {
+        "length": 9,
+        "stop": 189
+      },
+      "score_labels": {
+        "exact": 178,
+        "fail": 17,
+        "truncated": 3
+      },
+      "aggregate_gen_tok_s": 12.079133704348546,
+      "aggregate_e2e_tok_s": 12.066518215104754,
+      "mean_gen_tok_s": 11.757204150048091,
+      "mean_e2e_tok_s": 11.693803081295624
+    },
+    {
+      "pass": 3,
+      "correct": 179,
+      "wrong": 19,
+      "accuracy": 0.9040404040404041,
+      "wilson95_low": 0.8549962534969154,
+      "wilson95_high": 0.9377051116576877,
+      "truncated_no_answer": 3,
+      "hit_max_tokens": 8,
+      "errors": 0,
+      "completion_tokens": {
+        "total": 4881464.0,
+        "avg": 24653.858585858587,
+        "min": 211.0,
+        "max": 100000.0,
+        "p50": 14807.5,
+        "p90": 70544.0,
+        "p99": 100000.0
+      },
+      "finish_reasons": {
+        "length": 8,
+        "stop": 190
+      },
+      "score_labels": {
+        "exact": 179,
+        "fail": 16,
+        "truncated": 3
+      },
+      "aggregate_gen_tok_s": 11.8709992660976,
+      "aggregate_e2e_tok_s": 11.860283841631755,
+      "mean_gen_tok_s": 11.419277188769655,
+      "mean_e2e_tok_s": 11.370206691779524
+    },
+    {
+      "pass": 4,
+      "correct": 179,
+      "wrong": 19,
+      "accuracy": 0.9040404040404041,
+      "wilson95_low": 0.8549962534969154,
+      "wilson95_high": 0.9377051116576877,
+      "truncated_no_answer": 0,
+      "hit_max_tokens": 5,
+      "errors": 0,
+      "completion_tokens": {
+        "total": 4982749.0,
+        "avg": 25165.39898989899,
+        "min": 338.0,
+        "max": 100000.0,
+        "p50": 14107.0,
+        "p90": 70201.40000000005,
+        "p99": 100000.0
+      },
+      "finish_reasons": {
+        "length": 5,
+        "stop": 193
+      },
+      "score_labels": {
+        "exact": 179,
+        "fail": 19
+      },
+      "aggregate_gen_tok_s": 11.94798990453885,
+      "aggregate_e2e_tok_s": 11.93733992988114,
+      "mean_gen_tok_s": 11.744740502508595,
+      "mean_e2e_tok_s": 11.686744063776333
+    }
+  ],
+  "overall_repeated_generations": {
+    "attempted": 792,
+    "scored": 792,
+    "correct": 717,
+    "wrong": 75,
+    "accuracy": 0.9053030303030303,
+    "wilson95_low_naive_independence": 0.8829105198920011,
+    "wilson95_high_naive_independence": 0.9237828144202602,
+    "pass_mean_accuracy": 0.9053030303030303,
+    "pass_sample_sd": 0.006355079490968634,
+    "pass_min_accuracy": 0.898989898989899,
+    "pass_max_accuracy": 0.9141414141414141,
+    "truncated_no_answer": 7,
+    "hit_max_tokens": 31,
+    "completion_tokens": {
+      "total": 20043342.0,
+      "avg": 25307.25,
+      "min": 211.0,
+      "max": 100000.0,
+      "p50": 14558.0,
+      "p90": 71196.79999999999,
+      "p99": 100000.0
+    },
+    "finish_reasons": {
+      "length": 31,
+      "stop": 761
+    },
+    "score_labels": {
+      "exact": 717,
+      "fail": 68,
+      "truncated": 7
+    },
+    "mean_pass_aggregate_gen_tok_s": 12.265936542680071,
+    "mean_pass_aggregate_e2e_tok_s": 12.250651112640229
+  },
+  "statistical_note": "The 792 observations are four stochastic generations over the same 198 questions, not 792 unique questions. The naive pooled Wilson interval does not model repeated-item correlation."
+}
